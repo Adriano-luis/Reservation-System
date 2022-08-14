@@ -1,6 +1,6 @@
 <?php
 try {
-    $pdo = new PDO("mysql:dbname=booking;host=localhost", "Adriano", "Ad0023123@");
+    $pdo = new PDO("mysql:dbname=booking;host=localhost", "root", "root");
 } catch(PDOException $e) {
     echo "Error: " . $e->getMessage();
     exit();
